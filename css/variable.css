@@ -1,0 +1,25 @@
+:root {
+    --factory-color1: #fff;
+    --factory-color2: #e6e6e6;
+    --factory-color3: #ffce3e;
+    --factory-color4: #ffc61e;
+    --factory-color5: #111;
+
+    --factory-gradient: linear-gradient(0deg, rgba(255,206,62,.6), rgba(255,206,62,.6));
+    /* ===================================================================================== */
+
+    /* Font */
+    --font-family__title:   'Oswald', sans-serif;           /*      Only for h1-h6      */
+    --font-family__text:    'Titillium Web', sans-serif;    /*      Only for text       */
+    --font-family__action:  'Permanent', sans-serif;        /*      Only for action     */
+    --font-family__icons:   'Factory Icons';                /*      Only for icons      */
+    /* ===================================================================================== */
+
+    /* Button */
+    --base-animation: all .35s ease;
+
+    
+
+
+    
+}

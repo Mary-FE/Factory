@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600&display=swap');
+
+@font-face {
+    font-family: "Factory Icons";
+    font-style: normal;
+    font-weight: 400;
+    src:  url("../font/factory_icon.woff") format("woff"),
+        url("../font/factory_icon.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Permanent";
+    font-style: normal;
+    font-weight: 400;
+    src:  url("../font/permanent_400.woff") format("woff"),
+        url("../font/permanent_400.woff2") format("woff2");
+    font-display: swap;
+}

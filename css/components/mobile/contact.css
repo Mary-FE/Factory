@@ -1,0 +1,23 @@
+.contact {
+    position: relative;
+    background-color: var(--factory-color3);
+}
+
+.contact .title {
+    margin-bottom: 10px
+}
+
+.contact .second-title {
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
+.button--dark {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .button--dark {
+        display: block;
+    }
+}

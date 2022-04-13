@@ -1,0 +1,13 @@
+.contact .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact .second-title {
+    max-width: 240px;
+    font-size: 35px;
+}
+
+.contact .buttons {
+    margin: 25px auto;
+}

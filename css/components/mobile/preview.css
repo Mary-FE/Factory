@@ -1,0 +1,41 @@
+.preview {
+    position: relative;
+    min-height: 600px;
+    
+    background: rgba(0,0,0,0.45);
+}
+
+.preview picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: no-repeat center (0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45));
+}
+
+.preview img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    object-fit: cover;
+    object-position: top;
+}
+
+.preview .box {
+    text-align: center;
+}
+
+.preview .yellow-hats {
+    color: var(--factory-color3);
+}
+
+.preview .name {
+    margin: 20px auto;
+    color: var(--factory-color1);
+    text-align: center;
+}
+
+.preview .text {
+    margin-bottom: 20px;
+    color: var(--factory-color1);
+}

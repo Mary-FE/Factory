@@ -1,0 +1,14 @@
+.preview .name {
+    max-width: 100%;
+
+    font-size: 95px;
+    line-height: 1;
+}
+
+.preview .text {
+    font-size: 19px;
+}
+
+.preview .button {
+    margin-right: 20px;
+}
