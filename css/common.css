@@ -55,6 +55,7 @@
 .link {
     font: 400 14px/1.4 var(--font-family__action);
     text-transform: uppercase;
+    text-decoration: none;
 
     cursor: pointer;
 }
