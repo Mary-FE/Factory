@@ -1,0 +1,7 @@
+.partners picture {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.partners img {
+    width: 120px;
+}

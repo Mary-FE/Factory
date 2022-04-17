@@ -1,0 +1,18 @@
+.partners {
+    background-color: var(--factory-color2);
+}
+
+.partners .box {
+    padding-top: 40px;
+}
+
+.partners img {
+    width: 250px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.partners picture {
+    display: grid;
+    grid-gap: 40px;
+}
