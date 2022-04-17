@@ -1,0 +1,25 @@
+.projects {
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(../../../img/welder.jpeg);
+    background-position: 50% 50%;
+}
+
+.projects .box {
+    padding-top: 40px;
+}
+
+.projects picture {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.projects img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.projects .title {
+    margin-bottom: 15px;
+    color: var(--factory-color1);
+    text-align: center;
+}

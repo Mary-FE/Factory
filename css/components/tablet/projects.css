@@ -1,0 +1,7 @@
+.projects picture {
+    grid-template-columns: 1fr 1fr;
+}
+
+.projects .title {
+    font-size: 30px;
+}
