@@ -1,0 +1,30 @@
+.resume {
+    background-color: var(--factory-color2);
+}
+
+/* Item ==================================== */
+.resume .item {
+    text-align: center;
+}
+
+.resume .item .beginning {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.resume .item .text {
+    margin-bottom: 40px;
+}
+/* ========================================= */
+
+.resume .text:not(:first-child) {
+    margin-bottom: 20px;
+}
+
+.resume .title {
+    margin-bottom: 15px;
+}
+
+.resume img {
+    width: 100%;
+}

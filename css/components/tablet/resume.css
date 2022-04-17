@@ -1,0 +1,17 @@
+.resume .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.resume .content > div {
+    grid-column: 1/2;
+}
+
+.resume .content picture {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.resume .content picture ~ div {
+    grid-column: 1/3;
+}
