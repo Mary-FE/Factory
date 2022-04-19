@@ -1,0 +1,7 @@
+.statistic .box {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.statistic .number {
+    font-size: 40px;
+}

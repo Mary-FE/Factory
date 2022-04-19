@@ -1,0 +1,19 @@
+.statistic {
+    text-align: center;
+    background-color: var(--factory-color3);
+}
+
+.statistic .box {
+    padding: 30px;
+}
+
+.statistic .item {
+    margin-bottom: 30px;
+}
+
+.statistic .number {
+    display: block;
+    margin-bottom: 15px;
+    font: 500 30px var(--font-family__title);
+    letter-spacing: 2.5px;
+}
