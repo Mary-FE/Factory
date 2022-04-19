@@ -1,0 +1,29 @@
+.team .box {
+    text-align: center;
+}
+
+.team .type {
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+.team .staff {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.team img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.team .vacancy {
+    margin-top: -4px;
+    padding: 10px 0 20px;
+    background-color: var(--factory-color2);
+}
+
+.team .name {
+    margin-bottom: 5px;
+}
