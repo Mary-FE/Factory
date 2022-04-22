@@ -1,6 +1,8 @@
 .standards {
     position: relative;
     min-height: 400px;
+    padding: 50px 0;
+
     color: var(--factory-color1);
     text-align: center;
     background-color: rgba(255,206,62,.6);
@@ -21,4 +23,12 @@
     display: inline-block;
     object-fit: cover;
     object-position: top;
+}
+
+.standards .text {
+    margin: 20px auto;
+}
+
+.standards .signature {
+    width: 180px;
 }
