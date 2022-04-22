@@ -1,0 +1,8 @@
+.news .wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.news .text {
+    font-size: 16px;
+    line-height: 1.3;
+}
