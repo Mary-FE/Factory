@@ -63,11 +63,11 @@
 /* ===================================================================================== */
 
 /* Icons */
-.icon { position: relative };
+.icon { position: relative }
+.icon:before { font-family: var(--font-family__icons); }
 
-.icon:before { font-family: var(--font-family__icons) };
-
-.icon--normal {
+.icon--normal:before {
+    content: var(--icon-quotes);
     color: var(--factory-color3);
     font-size: 37px;
 }
