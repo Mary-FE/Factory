@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--factory-color5);
+}
+
+.footer .box {
+    display: grid;
+}
+
+.item-icon-wrapper {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto 1fr;
+}
+
+/* Icons =========================== */
+.footer .map:before {
+    content: var(--icon-map);
+}
+
+.footer .email:before {
+    content: var(--icon-email);
+}
+
+.footer .call:before {
+    content: var(--icon-call);
+}
+
+.footer .title {
+    color: var(--factory-color3);
+}
+
+.footer .info {
+    color: var(--factory-color1);
+    text-decoration: none;
+}

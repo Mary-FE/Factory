@@ -33,6 +33,12 @@
 /* ================================ */
 
 .news .subtitle {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
     margin-bottom: 15px;
     line-height: 1.2;
 }
