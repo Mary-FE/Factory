@@ -1,6 +1,7 @@
 .preview {
     position: relative;
     min-height: 400px;
+    padding-bottom: 60px;
     background-color: rgba(0,0,0,.45);
 }
 
@@ -19,21 +20,25 @@
     object-position: top;
 }
 
-.preview .box {
+/* .preview .box {
     text-align: center;
-}
+} */
 
-.preview .yellow-hats {
+/* .preview .yellow-hats {
     color: var(--factory-color3);
-}
+} */
 
-.preview .name {
+/* .preview .name {
     margin: 20px auto;
     color: var(--factory-color1);
     text-align: center;
-}
+} */
 
-.preview .text {
+/* .preview .text {
     margin-bottom: 20px;
     color: var(--factory-color1);
+} */
+
+.preview .first {
+    margin-bottom: 20px;
 }

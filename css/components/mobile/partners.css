@@ -7,12 +7,12 @@
 }
 
 .partners img {
-    width: 250px;
+    max-width: 150px;
     margin: 0 auto;
     object-fit: cover;
 }
 
-.partners picture {
+.partners .picture {
     display: grid;
     grid-gap: 40px;
 }

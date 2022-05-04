@@ -12,26 +12,44 @@
     <link rel="stylesheet" href="css/breakpoint/mobile.css" />
     <link rel="stylesheet" href="css/breakpoint/tablet.css" media="screen and (min-width: 768px)" />
     <link rel="stylesheet" href="css/breakpoint/desktop.css" media="screen and (min-width: 1024px)" />
+    <link rel="stylesheet" href="css/print.css" media="print" />
     <title>Factory</title>
 </head>
 <body>
     <!-- This is pteview -->
     <section class="preview">
         <picture>
+            <source srcset="img/tractor_mobile.jpg" media="(max-width: 767px)">
             <img src="img/tractor.jpeg" alt="an yellow tractor" loading="lazy" />
         </picture>
         <div class="box">
-            <h3 class="yellow-hats">We Are Yellow Hats</h3>
-            <h1 class="name">Big Factory</h1>
-            <p class="text">
-                Yellow Hats is a leading developer of A-grade commercial, industrial and
-                residential projects in USA. Since  its foundation the company has doubled its
-                turnover year on year, with its staff numbers swelling accordingly.
-            </p>
-            <button class="button">Read More</button>
-            <button class="button--light button">Get started</button>
+            <div class="title-box --light">
+                <span class="title-box__sub-title --yellow --bigger">We Are Yellow Hats</span>
+                <h1 class="title-box__main-title">Big Factory</h1>
+                <div class="title-box__text">
+                    Yellow Hats is a leading developer of A-grade commercial, industrial and
+                    residential projects in USA. Since  its foundation the company has doubled its
+                    turnover year on year, with its staff numbers swelling accordingly.
+                </div>
+            </div>
+            
+            
+
+            <button class="button first">Read More</button>
+            <button class="button button--light">Get started</button>
         </div>
     </section>
+
+    <!-- Test animation -->
+    <!-- <section class="test-animation">
+        <div class="box">
+            <div class="a-wrapper">
+                <span class="a1"></span>
+                <span class="a2"></span>
+                <span class="a3"></span>
+            </div>
+        </div>
+    </section> -->
 
     <!-- This is contact -->
     <section class="contact">
@@ -49,72 +67,84 @@
 
     <!-- This is description -->
     <div class="description">
-        <div class="box">
-            <div>
-                <picture>
+        <div class="box blog">
+            <div class="blog__artical">
+                <div class="blog__image">
                     <img src="img/car-door.jpeg" alt="car doors" loading="lazy" />
-                </picture>
-                <h3 class="title">Automotive Parts & System</h3>
-                <p class="text">
-                    Tiling is an effective way to add elegance & style to any bath or kitchen Yellow
-                    Hats Remodeling Team specializes in tile installation and works directly with each.
-                </p>
-                <a href="#" class="link _read">Read more</a>
+                </div>
+                <div class="blog__content">
+                    <h3 class="title">Automotive Parts & System</h3>
+                    <p class="text">
+                        Tiling is an effective way to add elegance & style to any bath or kitchen Yellow
+                        Hats Remodeling Team specializes in tile installation and works directly with each.
+                    </p>
+                    <a href="#" class="link _read">Read more</a>
+                </div>
             </div>
-            <div>
-                <picture>
+            <div class="blog__artical">
+                <div class="blog__image">
                     <img src="img/factory.jpeg" alt="factory" loading="lazy" />
-                </picture>
-                <h3 class="title">Power & Energy</h3>
-                <p class="text">
-                    Yellow Hats has full service renovation expertise, we are equipped with the right
-                    tools and people to handle projects of all sizes & provide high quality renovation.
-                </p>
-                <a href="#" class="link _read">Read more</a>
+                </div>
+                <div class="blog__content">
+                    <h3 class="title">Power & Energy</h3>
+                    <p class="text">
+                        Yellow Hats has full service renovation expertise, we are equipped with the right
+                        tools and people to handle projects of all sizes & provide high quality renovation.
+                    </p>
+                    <a href="#" class="link _read">Read more</a>
+                </div>
             </div>
-            <div>
-                <picture>
+            <div class="blog__artical">
+                <div class="blog__image">
                     <img src="img/hammer.jpeg" alt="hammer" loading="lazy" />
-                </picture>
-                <h3 class="title">Construction & Engineering</h3>
-                <p class="text">
-                    Tiling is an effective way to add elegance & style to any bath or kitchen Yellow
-                    Hats Remodeling Team specializes in tile installation and works directly with each.
-                </p>
-                <a href="#" class="link _read">Read more</a>
+                </div>
+                <div class="blog__content">
+                    <h3 class="title">Construction & Engineering</h3>
+                    <p class="text">
+                        Tiling is an effective way to add elegance & style to any bath or kitchen Yellow
+                        Hats Remodeling Team specializes in tile installation and works directly with each.
+                    </p>
+                    <a href="#" class="link _read">Read more</a>
+                </div>
             </div>
-            <div>
-                <picture>
+            <div class="blog__artical">
+                <div class="blog__image">
                     <img src="img/welder.jpeg" alt="welder" loading="lazy" />
-                </picture>
-                <h3 class="title">Material Engineering</h3>
-                <p class="text">
-                    Tiling is an effective way to add elegance & style to any bath or kitchen Yellow
-                    Hats Remodeling Team specializes in tile installation and works directly with each.
-                </p>
-                <a href="#" class="link _read">Read more</a>
+                </div>
+                <div class="blog__content">
+                    <h3 class="title">Material Engineering</h3>
+                    <p class="text">
+                        Tiling is an effective way to add elegance & style to any bath or kitchen Yellow
+                        Hats Remodeling Team specializes in tile installation and works directly with each.
+                    </p>
+                    <a href="#" class="link _read">Read more</a>
+                </div>
             </div>
-            <div>
-                <picture>
+            <div class="blog__artical">
+                <div class="blog__image">
                     <img src="img/lawnmower.jpeg" alt="lawnmower" loading="lazy" />
-                </picture>
-                <h3 class="title">Agricultural Processing</h3>
-                <p class="text">
-                    Yellow Hats has full service renovation expertise, we are equipped with the right
-                    tools and people to handle projects of all sizes & provide high quality renovation.
-                </p>
-                <a href="#" class="link _read">Read more</a>
+                </div>
+                <div class="blog__content">
+                    <h3 class="title">Agricultural Processing</h3>
+                    <p class="text">
+                        Yellow Hats has full service renovation expertise, we are equipped with the right
+                        tools and people to handle projects of all sizes & provide high quality renovation.
+                    </p>
+                    <a href="#" class="link _read">Read more</a>
+                </div>
             </div>
-            <div>
-                <picture>
+            <div class="blog__artical">
+                <div class="blog__image">
                     <img src="img/gas-tank.jpeg" alt="gas tank" loading="lazy" />
-                </picture>
-                <h3 class="title">Petroleum & Gas</h3>
-                <p class="text">
-                    Yellow Hats has full service renovation expertise, we are equipped with the right
-                    tools and people to handle projects of all sizes & provide high quality renovation.
-                </p>
-                <a href="#" class="link _read">Read more</a>
+                </div>
+                <div class="blog__content">
+                    <h3 class="title">Petroleum & Gas</h3>
+                    <p class="text">
+                        Yellow Hats has full service renovation expertise, we are equipped with the right
+                        tools and people to handle projects of all sizes & provide high quality renovation.
+                    </p>
+                    <a href="#" class="link _read">Read more</a>
+                </div>
             </div>
         </div>
     </div>
@@ -122,7 +152,16 @@
     <!-- This is resume -->
     <div class="resume">
         <div class="box">
-            <div class="item">
+            <div class="title-box">
+                <span class="title-box__sub-title">All About Yellow Hats</span>
+                <h2 class="title-box__main-title">Our Story</h2>
+                <div class="title-box__text">
+                    Yellow Hats is a leading developer of A-grade commercial, industrial and residential
+                    projects in USA. Since its foundation the company has doubled its turnover year on
+                    year, with its staff numbers swelling accordingly.
+                </div>
+            </div>
+            <!-- <div class="item">
                 <h3 class="title">All About Yellow Hats</h3>
                 <h2 class="beginning">Our Story</h2>
                 <p class="text">
@@ -130,7 +169,7 @@
                     projects in USA. Since its foundation the company has doubled its turnover year on
                     year, with its staff numbers swelling accordingly.
                 </p>
-            </div>
+            </div> -->
             <div class="content">
                 <div>
                     <h3 class="title">About</h3>
@@ -157,6 +196,7 @@
                     </p>
                </div>
                 <picture>
+                    <source srcset="img/workers_mobile.jpg" media="(max-width: 767px)">
                     <img src="img/workers.jpeg" alt="seven working men in uniform" loading="lazy" />
                 </picture>
                 <div>
@@ -186,29 +226,31 @@
 
     <!-- There is projects -->
     <section class="projects">
-        <div class="box">
-            <h3 class="title">Great & Awesome Works</h3>
-            <h2 class="title second">Our Projects</h2>
-            <picture>
+        <div class="box presentation">
+            <div class="presentation__info">
+                <h3 class="title">Great & Awesome Works</h3>
+                <h2 class="title second">Our Projects</h2>
+            </div>
+            <div class="picture presentation__image">
                 <img src="img/factory.jpeg" alt="factory" loading="lazy" />
                 <img src="img/worker.jpeg" alt="worker" loading="lazy" />
                 <img src="img/person.jpeg" alt="worker" loading="lazy" />
                 <img src="img/tractor.jpeg" alt="tractor" loading="lazy" />
-            </picture>
+            </div>
         </div>
     </section>
 
     <!-- This is partners -->
     <section class="partners">
         <div class="box">
-            <picture>
+            <div class="picture">
                 <img src="img/first.png" alt="Resort Hotel" loading="lazy" />
                 <img src="img/brandit.png" alt="Brandit Theoldschool" loading="lazy" />
                 <img src="img/showtime.png" alt="Showtime" loading="lazy" />
                 <img src="img/unlimited.png" alt="Unlimited" loading="lazy" />
                 <img src="img/classic.png" alt="Classic" loading="lazy" />
                 <img src="img/sunshine.png" alt="Sunshine" loading="lazy" />
-            </picture>
+            </div>
         </div>
     </section>
 
@@ -221,27 +263,21 @@
             </div>
             <div class="staff">
                 <div class="item">
-                    <picture>
-                        <img src="img/mike.png" alt="Vice President Mike Roberts" loading="lazy" />
-                    </picture>
+                    <img src="img/mike.png" alt="Vice President Mike Roberts" loading="lazy" />
                     <div class="vacancy">
                         <h4 class="name">Mike Roberts</h4>
                         <div>Vice President</div>
                     </div>
                 </div>
                 <div class="item">
-                    <picture>
-                        <img src="img/jennie.png" alt="Managment Jennie Perry" loading="lazy" />
-                    </picture>
+                    <img src="img/jennie.png" alt="Managment Jennie Perry" loading="lazy" />
                     <div class="vacancy">
                         <h4 class="name">Jennie Perry</h4>
                         <div>Managment</div>
                     </div>
                 </div>
                 <div class="item">
-                    <picture>
-                        <img src="img/tom.png" alt="Director Tom Hudson " loading="lazy" />
-                    </picture>
+                    <img src="img/tom.png" alt="Director Tom Hudson " loading="lazy" />
                     <div class="vacancy">
                         <h4 class="name">Tom Hudson</h4>
                         <div>Director</div>
@@ -284,9 +320,7 @@
                 <div class="item">
                     <div class="item-image-wrapper">
                         <span class="icon icon--normal"></span>
-                        <picture>
-                            <img src="img/jennie.png" alt="worker" loading="lazy" />
-                        </picture>
+                        <img src="img/jennie.png" alt="worker" loading="lazy" />
                     </div>
                     <p class="text">
                         "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur,
@@ -299,9 +333,7 @@
                 <div class="item">
                     <div class="item-image-wrapper">
                         <span class="icon icon--normal"></span>
-                        <picture>
-                            <img src="img/worker-in-a-helmet.jpeg" alt="worker in a helmet" loading="lazy" />
-                        </picture>
+                        <img src="img/worker-in-a-helmet.jpeg" alt="worker in a helmet" loading="lazy" />
                     </div>
                     <p class="text">
                         "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur,
@@ -314,9 +346,7 @@
                 <div class="item">
                     <div class="item-image-wrapper">
                         <span class="icon icon--normal"></span>
-                        <picture>
-                            <img src="img/man-in-a-suit.jpeg" alt="man in a suit" loading="lazy" />
-                        </picture>
+                        <img src="img/man-in-a-suit.jpeg" alt="man in a suit" loading="lazy" />
                     </div>
                     <p class="text">
                         "Aenean pulvinar dui ornare, feugiat lorem non, ultrices justo. Mauris efficitur,
@@ -333,6 +363,7 @@
     <!-- This is standards -->
     <section class="standards">
         <picture class="bgrd">
+            <source srcset="img/person_mobile.jpg" media="(max-width: 767px)">
             <img class="worker" src="img/person.jpeg" alt="worker" loading="lazy" />
         </picture>
         <div class="box">
@@ -342,9 +373,7 @@
                 standards at all of the company's sites. The control mechanism allows integrated monitoring of
                 works at all stages of construction and includes over 100 quality assessment benchmarks.
             </p>
-            <picture>
-                <img class="signature" src="img/signature.png" alt="signature" loading="lazy" />
-            </picture>
+            <img class="signature" src="img/signature.png" alt="signature" loading="lazy" />
         </div>
     </section>
 

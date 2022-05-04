@@ -7,7 +7,7 @@
     padding-top: 40px;
 }
 
-.projects picture {
+.projects .picture {
     display: grid;
     grid-gap: 20px;
 }

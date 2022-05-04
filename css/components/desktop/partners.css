@@ -1,4 +1,4 @@
-.partners picture {
+.partners .picture {
     grid-template-columns: repeat(6, 1fr);
 }
 

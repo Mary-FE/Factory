@@ -1,3 +1,8 @@
+body {
+    color: var(--factory-color5);
+    font-family: var(--font-family__text);
+}
+
 /* Buttons */
 .button {
     padding: 15px 30px;
@@ -74,7 +79,7 @@
 
 .icon--bigger {
     color: var(--factory-color1);
-    font-size: 64px;
+    font-size: 35px;
 }
 
 /* ====================================================================================== */
@@ -98,6 +103,8 @@ h4 {
 /* ====================================================================================== */
 
 .box {
+    max-width: 1200px; /* 1200px go to some variable */
     margin: 0 auto;
     padding: 20px 30px;
 }
+

@@ -1,6 +1,5 @@
 @import url('../../css/components/mobile/preview.css');
 @import url('../../css/components/mobile/contact.css');
-@import url('../../css/components/mobile/description.css');
 @import url('../../css/components/mobile/resume.css');
 @import url('../../css/components/mobile/projects.css');
 @import url('../../css/components/mobile/partners.css');
@@ -10,3 +9,9 @@
 @import url('../../css/components/mobile/standards.css');
 @import url('../../css/components/mobile/news.css');
 @import url('../../css/components/mobile/footer.css');
+@import url('../components/mobile/test-animation.css');
+
+/* Components */
+@import url('../components/blog.css');
+@import url('../components/title.css');
+@import url('../components/presentation.css');

@@ -1,0 +1,35 @@
+/* Main title block */
+.title-box {
+    max-width: 550px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.title-box.--light {
+    color: var(--factory-color1);
+}
+
+/* Title block elements */
+/* Main title */
+.title-box__main-title {
+    margin-bottom: 15px;
+}
+
+/* Sub-title */
+.title-box__sub-title {
+    font: 400 20px/1.4 var(--font-family__title);
+}
+
+.title-box__sub-title.--yellow {
+    color: var(--factory-color3);
+}
+
+.title-box__sub-title.--bigger {
+    font-size: 24px;
+}
+
+/* Title text */
+.title-box__text {
+    margin-bottom: 25px;
+    font: 400 16px/1.4 var(--font-family__text);
+}

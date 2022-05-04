@@ -1,0 +1,150 @@
+@media print {
+    @page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    body  {
+        padding-top: 72px;
+        padding-bottom: 72px ;
+    }
+
+    * {
+        page-break-after: auto;
+        orphans: 2;
+        widows: 2;
+        -webkit-print-color-adjust: exact;
+    }
+
+    button,
+    .contact {
+        display: none;
+    }
+
+/* This is preview  */
+    .preview {
+        min-height: auto;
+        padding-bottom: 0;
+    }
+
+    .preview picture {
+        z-index: 1;
+    }
+
+    .preview .box {
+        position: relative;
+        z-index: 2;
+    }
+
+    /* .preview .title-box__main-title,
+    .preview .title-box__text {
+        color: var(--factory-color5);
+    } */
+
+/* This is blog */
+    .blog {
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    .blog__artical {
+        display: block;
+    }
+
+    .blog__image {
+        height: 4cm;
+        margin-bottom: 0.3cm;
+    }
+
+/* This is description  */
+    .description .link {
+        display: none;
+    }
+
+    .description img {
+        height: 4cm;
+    }
+
+    .description .title {
+        font-size: 14pt;
+    }
+
+    .description .text {
+        font-size: 10pt;
+    }
+
+/* This is resume */
+    .resume {
+        page-break-before: always;
+        padding-top: 1cm;
+    }
+
+    .resume img {
+        display: none;
+    }
+
+/* This is project and partners */
+    .projects,
+    .partners {
+        display: none;
+    }
+
+/* This is team */
+    .team {
+    page-break-before: always;
+    }
+
+    .team .staff {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .team img {
+        width: 5cm;
+        height: 5cm;
+    }
+
+/* This is statistic */
+    .statistic .box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+/* This is testimonials */
+    .testimonials {
+    page-break-before: always;
+    }
+    
+/* This is standards */
+    .standards {
+        color: var(--factory-color5);
+        background-color: white;
+    }
+
+    .standards picture,
+    .standards .signature {
+        display: none;
+    }
+
+/* This is news */
+    .news h2 {
+        display: none;
+    }
+
+    .news img {
+        height: 4cm;
+    }
+
+    
+    .news .wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .news .link {
+        display: none;
+    }
+
+/* This is footer */
+    .footer .box {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

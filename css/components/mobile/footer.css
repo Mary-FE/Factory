@@ -33,3 +33,8 @@
     color: var(--factory-color1);
     text-decoration: none;
 }
+
+.footer .info:hover {
+    color: var(--factory-color3);
+    transition: var(--base-animation);
+}

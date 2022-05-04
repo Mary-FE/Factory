@@ -4,8 +4,9 @@
 }
 
 .contact .second-title {
-    max-width: 240px;
+    max-width: 280px;
     font-size: 35px;
+    line-height: 1.2;
 }
 
 .contact .buttons {
